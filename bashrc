@@ -99,23 +99,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export DISTCC_HOSTS="localhost 10.10.10.31 10.10.10.46 10.10.10.175"
-export PATH="/usr/lib/distcc:$PATH"
 
-export PYTHONPATH=/home/emanus/local/src/qpid-0.14/python:/home/emanus/local/src/qpid-0.14/extras/qmf/src/py:/home/emanus/workspace/libgrid/lib/python2.6/site-packages
-
-export LD_LIBRARY_PATH=/home/emanus/local/lib:/home/emanus/workspace/amgx/lib:/home/emanus/workspace/atonosays/lib:/home/emanus/workspace/libgrid/lib
-export LIBRARY_PATH=$LD_LIBRARY_PATH
-
-export LS_COLORS="$LS_COLORS:di=00;33"
-
-export PKG_CONFIG_PATH=/home/emanus/local/lib/pkgconfig:/home/emanus/workspace/libgrid/lib/pkgconfig
-
-CPLUS_INCLUDE_PATH="/home/emanus/local/include:$CPLUS_INCLUDE_PATH"
-
-#export PAGER="most"
-
-
-
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
